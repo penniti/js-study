@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>todoアプリ</title>
+    <link rel="stylesheet" href="./css/todo.css">
 </head>
 <body>
-    <script src="index.js"></script>
+    <main class="main">
+        <div class="main__inner">
+            <h1 class="main-title">TODOアプリ</h1>
+            <div class="area">
+                <div>
+                    <input id="add-text" placeholder="TODOを入力" type="text">
+                    <button id="add-button">追加</button>
+                </div>
+            </div>
+            <div class="area">
+                <p class="title">未完了のTODO</p>
+                <ul id="imcomplete-list">
+              
+                </ul>
+            </div>
+            <div class="area">
+                <p class="title">完了したTODO</p>
+                <ul id="complete-list">
+            
+                </ul>
+            </div>
+        </div>
+    </main>
+    <script src="todo.js"></script>
 </body>
 </html>
